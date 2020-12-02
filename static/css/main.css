@@ -284,21 +284,18 @@ a:hover {
 /* ----------- Galaxy S3 ----------- */
 
 /* Portrait and Landscape */
-@media screen
-    and (device-width: 360px)
-    and (device-height: 640px) {
+@media only screen and (max-width: 600px) {
 
     .first-section {
-      width: 360px;
       padding-left: 16%;
       padding-right: 16%;
       padding-top: 20px;
       padding-bottom: 155px;
       color: white;
-      background-color: #050505;
+      /*background-color: #050505; */
+      background-color: red;
     }
     .second-section {
-      width: 360px;
       padding-left: 16%;
       padding-right: 16%;
       padding-bottom: 73px;
@@ -308,14 +305,17 @@ a:hover {
 
     }
     .third-section {
-      width: 360px;
-      padding-left: 16%;
-      padding-right: 16%;
+      padding-left: 2%;
+      padding-right: 2%;
       padding-bottom: 171px;
       padding-top: 11px;
       color: black;
       background-color: #edededba;
 
+    }
+    .third-section-body {
+      padding-left: 16%;
+      padding-right: 16%;
     }
     .first-section-para {
       font-family: 'Handlee', cursive;
@@ -356,22 +356,18 @@ a:hover {
     font-family: 'Paytone One', sans-serif;}
 
     .third-section-para {
-    width: 360px;
-    font-family: 'Handlee', cursive;
-    font-size: 23px;
-    line-height: 42px;
-    font-style: normal;
-    font-weight: bold;}
+      font-family: 'Handlee', cursive;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: bold;
+      padding-left: 0px;
+      padding-right: 0px;}
 
 
 }
 
 /* Portrait */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media only screen and (min-width: 600px) {
     .first-section {
       width: 662px;
       padding-left: 16%;
@@ -440,11 +436,11 @@ a:hover {
     font-family: 'Paytone One', sans-serif;}
 
     .third-section-para {
-    width: 662px;
-    font-family: 'Handlee', cursive;
-    font-size: 23px;
-    line-height: 42px;
-    font-style: normal;
-    font-weight: bold;}
+      font-family: 'Handlee', cursive;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: bold;
+      padding-left: 0px;
+      padding-right: 0px;}
 
 }
