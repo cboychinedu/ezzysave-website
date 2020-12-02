@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzzySave</title>
+
+    <!--Adding the stylesheet-->
+    <link rel="stylesheet" href="../static/css/main.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+
+  <!-- Content of the HTML page. -->
+  <body>
+
+
+  <section class="first-section">
+    <div class="navbar">
+        <a href="{{url_for('index')}}">Home</a>
+        <a id="news" href="#news">News</a>
+        <a id="contact-us" href="#"> Contact Us </a>
+        <a id="why-us" href="#"> Why Us </a>
+        <a id="faq" href="#"> FAQ </a>
+        <a id="get-access" href="#"> Get Access Now </a>
+    </div>
+
+{% block content %}
+
+
+      <h1 class="first-heading"> The Signature <br>Service Of Geefto<br> Corporation.  </h1> <br>
+
+      <p class="first-section-para"> Geefto has created the <b>Ezzysave </b> application to encourage you to save towards specific goals such as <br>
+        saving for the future, college, start a business or down payment for your own home. <br> <br>
+
+        When you join our saving program, you will join our automatic reward program and <b> Gettfto </b> Corporation <br>
+        will match your rewared and match your saving goals. <br> <br>
+
+        For example, if your goal is to save a $1,200.00 over a year, <b> Geefto</b> will match you with our partner that <br>
+        will match your savings so that the end of your savings plan, you will be given $2,400.00.
+
+      </p> <br> <br>
+
+      <form class="first-form" action="{{ url_for('landing_page')}}" method="POST">
+        <input type="email" class="email" name="email" placeholder="Type your email here* ">
+        <button type="submit" value="Submit" class="sum-btn"> <b> Get Access Now </b> </button> <br>
+
+        </form>
+      </section>
+
+      <section class="">
+
+        <!--Creating a division for images -->
+        <div class="second-secion-first-image">
+        </div>
+
+        <div class="second-section">
+            <h1 class="second-section-first-heading"> Savings Account </h1> <br>
+
+            <p class="second-section-para"> Commit to a saving plan and we will connect you with our partners who will match your savings <br>
+              goal. <br> <br>
+              EzzySave plan allows our customers to save towards specific goals. <br> <br>
+              Through our reward program, customers reward are added back to the savings account of our customers. <br>
+          </p>  <br> <br>
+
+      </div>
+
+        </section>
+
+      <section class="third-section">
+
+        <!--Creating a division for images -->
+        <div class="third-secion-first-image">
+        </div>
+
+        <!--Adding another paragraph inside section two -->
+        <h1 class="third-section-first-heading"> Checking Account <br> (Debit/Prepaid Card) </h1>  <br>
+
+        <p class="third-section-para"> Checking accounts are designed for regular transaction.  <br> We offer debit cards for customers to
+          access their checking accounts.<br> By swiping your card enables you to automatically enroll in our revenue <br> sharing program
+          when you use your card to make purchases or withdrawals from <b>ATMs.</b>
+        </p> <br> <br>
+
+        <h1 class="third-section-first-heading"> Secured Saving Account <br> With Lines Of Credit </h1> <br>
+
+        <p class="third-section-para"> An <b>EzzySave</b> savings secured line of credit is a revolving line of credit that allows funds <br>
+          to be borrowed, repaid and then borrowed again. The line of credit is secured by funds  <br> from your <b>geefto</b> savings or money account. </p> <br>
+        </section>
+
+
+{% endblock content %}
+
+  </body>
+</html>

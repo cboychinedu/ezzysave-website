@@ -1,0 +1,281 @@
+/* body {
+  display: flex;
+  align-items: center;
+  background-color: black;
+} */
+
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+html {
+  font-family: 'Handlee', cursive;
+}
+
+body {
+  /*background-color: #050505;*/
+  font-family: 'Handlee', cursive;
+  margin: 0 auto;
+  padding-top: 0%;
+
+}
+
+.first-heading {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 71px;
+  font-weight: bold;
+  line-height: 91px;
+  font-style: normal;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.first-section {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
+  padding-bottom: 155px;
+  color: white;
+  background-color: #050505;
+}
+
+.first-section-para{
+  font-family: 'Handlee', cursive;
+  font-size: 23px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  padding-right: 474px;
+}
+
+.second-section-para {
+  font-family: 'Handlee', cursive;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 1px;
+  padding-right: 137px;
+}
+
+.third-section-para {
+  font-family: 'Handlee', cursive;
+  font-size: 23px;
+  line-height: 42px;
+  padding-right: 724px;
+  font-style: normal;
+  font-weight: bold;
+
+}
+
+.email{
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  font-family: 'Handlee', cursive;
+  border-radius: 25px;
+  margin-top: 19px;
+  width: 383px;
+  height: 49px;
+}
+
+.sum-btn {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Handlee', cursive;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 8px;
+  width: 191px;
+  height: 45px;
+  background: #3DB5AE;
+  border-radius: 40px;
+  border-left-color: black;
+  border-color: black;
+
+}
+
+.second-section {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 43%;
+  padding-right: 6%;
+  padding-bottom: 73px;
+  padding-top: 70px;
+  color: black;
+  background-color: #edededba;
+
+}
+
+.second-section-first-heading{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 71px;
+  font-weight: bold;
+  line-height: 91px;
+  font-style: normal;
+  font-family: 'Paytone One', sans-serif;
+
+}
+
+.third-section-first-heading {
+  padding-right: 231px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 71px;
+  font-weight: bold;
+  line-height: 91px;
+  font-style: normal;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.third-section {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 9%;
+  padding-right: 2%;
+  padding-bottom: 171px;
+  padding-top: 11px;
+  color: black;
+  background-color: #edededba;
+
+}
+
+/* LANDING PAGE SECTION */
+
+.landing-page-first-div {
+  border-radius: 25px;
+  /* border: black solid 3px; */
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 6%;
+  box-shadow: 1px 3px 21px;
+  text-align: center;
+  padding-bottom: 41px;
+  padding-top: 31px;
+  margin-bottom: 54px;
+  background-color: #fffdfd24;
+
+}
+
+.landing-page-heading {
+  font-size: 45px;
+}
+
+.landing-page-first-para {
+  font-weight: bold;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 45px;
+  color: green;
+}
+
+
+/* Adding The Navigation Bar */
+.navbar {
+  overflow: hidden;
+  background-color: #050505;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.navbar #news, #contact-us, #why-us, #faq, #get-access {
+  margin-left: 60px;
+  padding-right: 30px;
+  padding-left: 25px;
+}
+
+.navbar a {
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #3DB5AE;
+  border-radius: 18px;
+}
+
+
+a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+a:hover {
+  background-color: #3DB5AE;
+}
+
+
+/* Style all font awesome icons */
+#fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 23px;
+  height: 19px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#fb {
+  padding: 10px;
+  font-size: 30px;
+  width: 23px;
+  height: 19px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 24px;
+  margin-left: 1px;
+
+}
+
+#copy-btn {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Handlee', cursive;
+  font-size: 17px;
+  line-height: 20px;
+  margin-left: 2px;
+  width: 64px;
+  height: 31px;
+  background: #3DB5AE;
+  border-radius: 13px;
+
+}

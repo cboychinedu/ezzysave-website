@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Landing Page </title>
+
+    <!-- Adding the stylesheet -->
+    <link rel="stylesheet" href="../static/css/main.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+{% extends "index.html" %}
+
+{% block content %}
+    <section class="landing-page-section">
+      <!-- Adding the first division -->
+      <div class="landing-page-first-div">
+          <!-- Adding the first header -->
+          <h1 class="landing-page-heading"> Want to be first in line ? </h1>
+
+          <p class="landing-page-first-para"> Earn extra cash and early account access by inviting <br>
+            friends and family to join GreenWood. <br> <br> </p>
+
+            <p class="landing-page-first-para"> Your current position: <br>
+              <h3> #29010 </h3>  </p>
+
+            <!-- Add font awesome icons -->
+            <a href="#" id="fa" class="fa fa-facebook"></a>
+            <a href="#" id="fa" class="fa fa-google"></a>
+            <a href="#" id="fa" class="fa fa-linkedin"></a>
+            <a href="#" id="fa" class="fa fa-youtube"></a>
+            <a href="#" id="fa" class="fa fa-instagram"></a> <br>
+            <a href="#" id="fb" class="fa fa-pinterest"></a>
+            <a href="#" id="fb" class="fa fa-snapchat-ghost"></a>
+            <a href="#" id="fb" class="fa fa-twitter"></a> <br> <br>
+
+        <form class="landing-form">
+          <input type="url" class="url-link" name="url-link">
+          <button onclick="CopyFunction();"  id="copy-btn"> <b> copy </b> </button>
+        </form>
+
+      </div>
+
+  </section>
+
+{% endblock content %}
+
+  </body>
+</html>
