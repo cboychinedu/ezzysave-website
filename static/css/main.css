@@ -279,3 +279,172 @@ a:hover {
   border-radius: 13px;
 
 }
+
+/* Mobile Devices */
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+    and (device-width: 360px)
+    and (device-height: 640px) {
+
+    .first-section {
+      width: 360px;
+      padding-left: 16%;
+      padding-right: 16%;
+      padding-top: 20px;
+      padding-bottom: 155px;
+      color: white;
+      background-color: #050505;
+    }
+    .second-section {
+      width: 360px;
+      padding-left: 16%;
+      padding-right: 16%;
+      padding-bottom: 73px;
+      padding-top: 70px;
+      color: black;
+      background-color: #edededba;
+
+    }
+    .third-section {
+      width: 360px;
+      padding-left: 16%;
+      padding-right: 16%;
+      padding-bottom: 171px;
+      padding-top: 11px;
+      color: black;
+      background-color: #edededba;
+
+    }
+    .first-section-para {
+      font-family: 'Handlee', cursive;
+      font-size: 23px;
+      line-height: 24px;
+      font-style: normal;
+      font-weight: bold;
+      padding-right: 18px;
+      padding-left: 6px;
+    }
+    .first-heading {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 71px;
+    font-weight: bold;
+    line-height: 91px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif; }
+
+    .second-section-para {
+    font-family: 'Handlee', cursive;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-right: 0px; }
+
+    .third-section-first-heading {
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 71px;
+    font-weight: bold;
+    line-height: 91px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;}
+
+    .third-section-para {
+    width: 360px;
+    font-family: 'Handlee', cursive;
+    font-size: 23px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: bold;}
+
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .first-section {
+      width: 662px;
+      padding-left: 16%;
+      padding-right: 16%;
+      padding-top: 20px;
+      padding-bottom: 155px;
+      color: white;
+      background-color: #050505;
+    }
+    .second-section {
+      width: 662px;
+      padding-left: 16%;
+      padding-right: 16%;
+      padding-bottom: 73px;
+      padding-top: 70px;
+      color: black;
+      background-color: #edededba;
+
+    }
+    .third-section {
+      width: 662px;
+      padding-left: 16%;
+      padding-right: 16%;
+      padding-bottom: 171px;
+      padding-top: 11px;
+      color: black;
+      background-color: #edededba;
+
+    }
+    .first-section-para {
+      font-family: 'Handlee', cursive;
+      font-size: 23px;
+      line-height: 24px;
+      font-style: normal;
+      font-weight: bold;
+      padding-right: 18px;
+      padding-left: 6px;
+    }
+    .first-heading {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 71px;
+    font-weight: bold;
+    line-height: 91px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif; }
+
+    .second-section-para {
+    font-family: 'Handlee', cursive;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-right: 0px; }
+
+    .third-section-first-heading {
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 71px;
+    font-weight: bold;
+    line-height: 91px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;}
+
+    .third-section-para {
+    width: 662px;
+    font-family: 'Handlee', cursive;
+    font-size: 23px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: bold;}
+
+}
